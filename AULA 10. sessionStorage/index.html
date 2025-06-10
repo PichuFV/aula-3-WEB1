@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <title>Agenda de Eventos</title>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h1>Agenda de Eventos</h1>
+    <form id="eventForm">
+        <label for="title">Título:</label>
+        <input type="text" id="title" required>
+        <label for="datetime">Data e Hora:</label>
+        <input type="datetime-local" id="datetime" required>
+        <label for="location">Local:</label>
+        <input type="text" id="location" required>
+        <button type="submit">Adicionar Evento</button>
+    </form>
+    <ul id="eventList"></ul>
+</body>
+</html>
