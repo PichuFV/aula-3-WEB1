@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: monospace;
+    background-color: #F7D08A;
+}
+body{
+    text-align: center;
+}
+.header{
+    text-align: center;
+    color: red;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #F7D08A !important;
+}
